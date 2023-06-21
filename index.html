@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StreamOnline task A.C</title>
+    <link href="style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <nav class="nav">
+      <button class="nav--link btn--art">Article</button>
+      <button class="nav--link btn--form">Form</button>
+      <button class="nav--link btn--video">Video</button>
+    </nav>
+    <div class="article" id="articleDiv">
+      <h1>My article</h1>
+      <div class="flexbox-container" style="display:flex;">
+        <div class="sidebar" style="flex:1; margin: 10px 20px">
+          <article>
+            <img
+            class="art--image"
+            src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2016/11/black-white-landscape-tips-3.jpg?w=600&h=1260&ssl=1"
+          />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.    
+          </p>
+            </article>
+            <article>
+              <img
+              class="art--image"
+              src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2021/04/black-and-white-landscape-12.jpg?fit=1500%2C1001&ssl=1"
+            />
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.            </p>
+              </article>
+              <article>
+                <img
+                class="art--image"
+                src="https://media.istockphoto.com/id/502780150/photo/lone-tree-lake-wanaka-new-zealand.jpg?s=612x612&w=0&k=20&c=RCB6S_vWzwII3zyDB2iZI8bVJoTVL-VvdBRKuvkmats="
+              />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.    
+              </p>
+                </article>
+        
+        </div>
+        <div class="main" style="flex:1; margin: 10px 20px">
+          <article>
+            <img class="art--image" src="https://www.popphoto.com/app/uploads/2019/01/17/H6IXNGES7XFT3BC2QPOREFGINU.jpg">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </article>
+          <article>
+            <img class="art--image" src="https://www.viewbug.com/media/mediafiles/2016/06/10/66542858_large1300.jpg">
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,            </p>
+          </article>
+          <article>
+            <img
+            class="art--image"
+            src="https://media.istockphoto.com/id/498428776/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=VPYmucQ5JUbNCiW6nrizntZqoxez_Nl6bVbS541JDKs="
+          />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.    
+          </p>
+            </article>
+         
+        </div>
+    </div>
+    
+
+    </div>
+    <div class="hidden" id="formDiv">
+      <h1>My Form</h1>
+      <form class="user-form" id="myForm" action="">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="ex. John" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="ex. Doe" required><br>
+        <label for="voivodeships">Choose a voivodeship:</label>
+        <select name="voivodeshipsDropdown" id="voivodeshipsDropdown" required>
+        </select><br>
+        <label for="interests">Your interests:</label><br>
+        <textarea id="interests" name="interests" rows="10" cols="30" required></textarea><br>
+        <input type="checkbox" id="agreement" name="agreement" value="1">
+        <label for="agreement"> I agree to processing of my data</label><br>
+        <br>
+        <button class="my-btn" type="submit">Submit</button>
+      </form> 
+      <div class="hidden" id="inputDisplay">
+        <p id="fnameDisplay"></p>
+        <p id="lnameDisplay"></p>
+        <p id="voivodeshipDisplay"></p>
+        <p id="interestsDisplay"></p>
+        <p id="agreementDisplay"></p>
+        <button class="my-btn" type="button" id="editBtn">Edit</button>
+      </div>
+    </div>
+    <div class="hidden" id="videoDiv">
+      <h1>Video player</h1>
+      <h3>Watch sample video or enter video source below</h2><br>
+      <form  id="playerForm">
+        <label for="sourceInput">Video source:</label>
+        <input type="text" id="sourceInput" name="sourceInput" placeholder="enter link here.. " required>
+        <button class="my-btn" type="submit">Upload</button>
+      </form>
+      <div style="width: 80%; align-items: center; margin-left: 10%;">
+        <video class="player" id="videoPlayer" >
+          <source id="sourcePlayer" src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="player-btns-container">
+          <button  class="my-btn" type="button" id="playPauseBtn">⏸️ Pause </button>
+          <button class="my-btn" type="button" id="skipForwBtn">⏩️ 5s </button>
+        </div>
+      </div>
+     
+     
+    <script src="script.js"></script>
+  </body>
+</html>

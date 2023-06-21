@@ -1,0 +1,131 @@
+body {
+  --nav-width: 200px;
+  margin: 0 0 0 var(--nav-width);
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  padding: 50px;
+}
+
+.art--image {
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+
+.article {
+  box-sizing: border-box;
+  text-align: justify;
+  padding: 5px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  background: #007556;
+}
+
+.nav--link {
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007556;
+  font-weight: 500;
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px #004734;
+}
+
+.nav--link:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.my-btn {
+  background-color: #7d0298;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 5px;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.my-btn:hover,
+.my-btn:focus {
+  background-color: #884497;
+}
+
+.user-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.user-form input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#playerForm input[type="text"] {
+  width: 60%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.user-form .my-btn {
+  width: 10%;
+  margin-left: 90%;
+}
+
+.player {
+  display: block;
+  width: 100%;
+  margin: 15px;
+}
+
+.player-btns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
